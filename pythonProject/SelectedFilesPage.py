@@ -154,8 +154,8 @@ class SelectedFilesPage(tk.Frame):
 
         print(f"Column {column}: Total count = {total_count}, Unique count = {unique_count}")
 
-        if unique_count <= 20:
-            print(f"Column {column} is suitable for classification: less than or equal to 20 unique items.")
+        if unique_count <= 50:
+            print(f"Column {column} is suitable for classification: less than or equal to 50 unique items.")
             self.unique_items_cache[column] = unique_items  # Cache the unique items
             return True  # Suitable for classification if unique items are very few
 
