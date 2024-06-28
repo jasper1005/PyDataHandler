@@ -1,9 +1,19 @@
-import tkinter as tk
-from tkinter import ttk, filedialog, messagebox
 import os
-from PIL import Image, ImageTk
-import pandas as pd
+import sys
+import tkinter as tk
+from tkinter import ttk, messagebox
+import pandas as pd  # Ensure pandas is imported
+from PIL import Image, ImageTk  # Make sure to install Pillow: pip install pillow
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 class DisplaySelectedInfoPage(tk.Frame):
     def __init__(self, parent, controller):
