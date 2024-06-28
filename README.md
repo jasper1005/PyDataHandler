@@ -36,5 +36,9 @@ The software is a sophisticated file selection and data management tool develope
 
 **Output Path Selecting Page:**
 
+<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/3e4eba5f-70cd-4e7b-baad-abac672dbff0" alt="description of image" width="500"/>
+
+
+
 - Choose the output path, file name, and format.
 - Click 'Extract' to generate the output files.
