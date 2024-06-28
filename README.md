@@ -15,6 +15,7 @@ The software is a sophisticated file selection and data management tool develope
 - Click 'Next' to proceed to the Selected Files page.
 
 **Selected Files Page:**
+![image](https://github.com/jasper1005/PyDataHandler/assets/69462492/fb80a4d5-28e9-4c36-982f-2e3ca5e67826)
 
 - Review the list of selected files and their details.
 - Select a header to classify unique items from the file data.
