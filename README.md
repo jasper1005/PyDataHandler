@@ -1,6 +1,6 @@
 # **Objective**
 
-The software is a sophisticated file selection and data management tool developed with Tkinter, designed to streamline the process of handling large datasets across various formats, including CSV, TXT, and Excel files. Users can filter files by type, preview details, and ensure structural consistency. The primary functionality includes splitting data based on unique items within a selected column or grouping specific unique items into a single file. These operations can be performed across one or multiple files, providing flexibility and efficiency for data processing tasks. The tool also offers features for selecting or deselecting all files, skipping rows, and sampling data, making it ideal for managing extensive datasets with precision.
+The software is a sophisticated file selection and data management tool developed with Tkinter, designed to streamline the process of handling large datasets across various formats, including CSV, (Coming Soon: TXT, and Excel) files. Users can filter files by type, preview details, and ensure structural consistency. The primary functionality includes splitting data based on unique items within a selected column or grouping specific unique items into a single file. These operations can be performed across one or multiple files, providing flexibility and efficiency for data processing tasks. The tool also offers features for selecting or deselecting all files, skipping rows, and sampling data, making it ideal for managing extensive datasets with precision.
 
 # **Instructions:**
 
@@ -12,7 +12,7 @@ The software is a sophisticated file selection and data management tool develope
 
 <img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/aec6fb62-e635-4259-add2-72739bd8bb17" alt="description of image" width="500"/>
 
-- Choose the type of files you want to select from the dropdown menu.
+- Choose the type of files(Coming Soon: TXT, and Excel) you want to select from the dropdown menu.
 - Select the files you want to process. You can use 'Select All' or 'Deselect All' buttons.
 - Specify the number of rows to skip if necessary.
 - Optionally, enable 'Sample Data' to process only the first 20,000 rows.
