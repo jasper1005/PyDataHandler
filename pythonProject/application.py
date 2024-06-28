@@ -3,6 +3,7 @@ from folder_selection_page import FolderSelectionPage
 from file_selection_page import FileSelectionPage
 from SelectedFilesPage import SelectedFilesPage
 from DisplaySelectedInfoPage import DisplaySelectedInfoPage
+from tkinter import messagebox
 
 class Application(tk.Tk):
     def __init__(self):
@@ -13,6 +14,7 @@ class Application(tk.Tk):
         self.pages = {}
         self.init_pages()
         self.selected_folder = ""
+        self.show_about()
 
     def init_pages(self):
         # Initialize and add FolderSelectionPage
@@ -52,3 +54,11 @@ class Application(tk.Tk):
     def show_selected_files_page(self, selected_files, skip_rows, sample_data):
         self.pages['SelectedFilesPage'].display_selected_files(selected_files, skip_rows, sample_data)
         self.show_page("SelectedFilesPage")
+
+    def show_warning_message(self):
+        messagebox.showwarning("Disclaimer",
+                               "This software is intended for learning, teaching, or personal use purposes only.")
+
+    def show_about(self):
+        messagebox.showinfo("About",
+                            "Content is copyright © Jasper Cheng (Github: jasper1005). You are permitted to use the content for personal, learning, or teaching purposes only. No trademark permissions are granted.\n\nContent based on Data Handler.")

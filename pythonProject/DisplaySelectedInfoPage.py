@@ -1,7 +1,7 @@
 import os
 import sys
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog  # Import filedialog here
 import pandas as pd  # Ensure pandas is imported
 from PIL import Image, ImageTk  # Make sure to install Pillow: pip install pillow
 
