@@ -25,7 +25,7 @@ The software is a sophisticated file selection and data management tool develope
   
 **Display Selected Info Page:**
 
-<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/fb80a4d5-28e9-4c36-982f-2e3ca5e67826" alt="description of image" width="500"/>
+<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/b35deb66-f342-473d-9683-2deea44710de" alt="description of image" width="500"/>
 
 
 
