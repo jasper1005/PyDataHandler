@@ -16,7 +16,7 @@ The software is a sophisticated file selection and data management tool develope
 
 **Selected Files Page:**
 
-<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/fb80a4d5-28e9-4c36-982f-2e3ca5e67826" alt="description of image" width="300"/>
+<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/fb80a4d5-28e9-4c36-982f-2e3ca5e67826" alt="description of image" width="500"/>
 
 
 - Review the list of selected files and their details.
