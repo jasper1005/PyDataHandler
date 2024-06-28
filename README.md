@@ -8,6 +8,8 @@ The software is a sophisticated file selection and data management tool develope
 
 **File Selection Page:**
 
+<img src="https://github.com/jasper1005/PyDataHandler/assets/69462492/aec6fb62-e635-4259-add2-72739bd8bb17" alt="description of image" width="500"/>
+
 - Choose the type of files you want to select from the dropdown menu.
 - Select the files you want to process. You can use 'Select All' or 'Deselect All' buttons.
 - Specify the number of rows to skip if necessary.
