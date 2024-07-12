@@ -162,12 +162,12 @@ class SelectedFilesPage(tk.Frame):
         if total_count == 20000:  # Adjusted for sample size of 20000 rows
             unique_percentage = (unique_count / total_count) * 100
             print(f"Column {column}: Unique percentage = {unique_percentage}%")
-            if unique_percentage <= 0.0025:
-                print(f"Column {column} is suitable for classification: unique percentage <= 0.0025%.")
+            if unique_percentage <= 0.0035:
+                print(f"Column {column} is suitable for classification: unique percentage <= 0.0035%.")
                 self.unique_items_cache[column] = unique_items  # Cache the unique items
                 return True
             else:
-                print(f"Column {column} is not suitable: unique percentage > 0.0025%.")
+                print(f"Column {column} is not suitable: unique percentage > 0.0035%.")
                 return False
 
         print(f"Column {column} does not meet any criteria for classification.")
